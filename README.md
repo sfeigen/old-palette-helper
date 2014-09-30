@@ -13,17 +13,26 @@ Add 2 files to Index [palette.css, palette.js]
 	<link rel="stylesheet" href="Palette/css/palette.css">
 <head>
 <body>
-	<palette></palette>
 	<script src="Palette/palette.js"></script>
 </body>
 ```
 
+Use Directive
+=======
+Call <palette> as first object in body:
+```html
+<body>
+	<palette></palette>
+</body>
+```
 
 Edit and run Sass .bat file:
-```
-	double-click "sass.bat"
-```
+```sass
+$dark: 		edit these
+$light: 	|
+$base: 		|
+$lightBase: 	|
+$accent: 	|
 
-Edit: 
-
-Some bugs when you rapidly scroll -- added bottom reset panel.
+double-click "sass.bat"
+```
