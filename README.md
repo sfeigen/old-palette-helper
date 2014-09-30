@@ -28,11 +28,11 @@ Call <palette> as first object in body:
 
 Edit and run Sass .bat file:
 ```sass
-$dark: 		edit these
-$light: 	|
-$base: 		|
-$lightBase: 	|
-$accent: 	|
+$dark: 		edit these...
+$light: 	
+$base: 		
+$lightBase: 	
+$accent: 	
 
 double-click "sass.bat"
 ```
