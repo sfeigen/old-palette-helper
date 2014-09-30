@@ -7,18 +7,18 @@ Add directive to main:
 	var app = angular.module('app', ['Palette']); <--
 ```
 
-Add style to <head> in Index:
+Add style to head in Index:
 ```html
 	<link rel="stylesheet" href="Palette/css/palette.css">
 ```
 
-Add palette.js to <body>:
+Add palette.js to body in index:
 ```html
 	<script src="Palette/palette.js"></script>
 ```
 
 Use Directive:
-Add Palette as first element in <body>:
+Add Palette as first element in body:
 ```html
 	<palette></palette>
 	<div class="container...">...
