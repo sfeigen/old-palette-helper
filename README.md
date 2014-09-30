@@ -3,7 +3,7 @@ Palette
 Install Directive:
 
 Add directive to main:
-```angular
+```javascript
 	var app = angular.module('app', ['Palette']); <--
 ```
 
