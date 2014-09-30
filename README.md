@@ -1,28 +1,23 @@
-Palette
+Angular Color Palette
 =======
 Install Directive:
 
-Add directive to main:
+Add directive to main app:
 ```javascript
 	var app = angular.module('app', ['Palette']); <--
 ```
 
-Add style to head in Index:
+Add 2 files to Index [palette.css, palette.js]
 ```html
+<head>
 	<link rel="stylesheet" href="Palette/css/palette.css">
-```
-
-Add palette.js to body in index:
-```html
-	<script src="Palette/palette.js"></script>
-```
-
-Use Directive:
-Add Palette as first element in body:
-```html
+<head>
+<body>
 	<palette></palette>
-	<div class="container...">...
+	<script src="Palette/palette.js"></script>
+</body>
 ```
+
 
 Edit and run Sass .bat file:
 ```
@@ -30,4 +25,5 @@ Edit and run Sass .bat file:
 ```
 
 Edit: 
+
 Some bugs when you rapidly scroll -- added bottom reset panel.
