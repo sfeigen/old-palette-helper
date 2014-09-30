@@ -1,0 +1,45 @@
+//fonts
+$fontPrimary: 'Lato', sans-serif;
+$fontAccent: 'Roboto Slab', serif;
+
+//colors
+$dark: #292929;
+$light: #ACC3DE;
+$base: #08586E;
+$lightBase: #08B1CA;
+$accent: #73E0CB;
+
+.colorContainer {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+.color1, .color2, .color3, .color4, .color5 {
+	height: 50px;
+	width: 50px;
+	line-height: 50px;
+	padding-left: 20px;
+} 
+.color1 {
+	background-color: $dark;
+}
+.color2 {
+	background-color: $light;
+}
+.color3 {
+	background-color: $base;
+}
+.color4 {
+	background-color: $lightBase;
+}
+.color5 {
+	background-color: $accent;
+}
+.clear {
+	height: 50px;
+	width: 50px;
+	border: 1px solid #ccc;
+}
+.clear:hover {
+	background-color: rgba(0,0,0,.05);
+}

@@ -1,0 +1,33 @@
+.colorContainer {
+  position: absolute;
+  left: 0px;
+  top: 0px; }
+
+.color1, .color2, .color3, .color4, .color5 {
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  padding-left: 20px; }
+
+.color1 {
+  background-color: #292929; }
+
+.color2 {
+  background-color: #acc3de; }
+
+.color3 {
+  background-color: #08586e; }
+
+.color4 {
+  background-color: #08b1ca; }
+
+.color5 {
+  background-color: #73e0cb; }
+
+.clear {
+  height: 50px;
+  width: 50px;
+  border: 1px solid #ccc; }
+
+.clear:hover {
+  background-color: rgba(0, 0, 0, 0.05); }
