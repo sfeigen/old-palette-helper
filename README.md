@@ -10,7 +10,7 @@ Add directive to main app:
 Add 2 files to Index [palette.css, palette.js]
 ```html
 <head>
-	<link rel="stylesheet" href="Palette/css/palette.css">
+	<link rel="stylesheet" href="Palette/content/css/palette.css">
 <head>
 <body>
 	<script src="Palette/palette.js"></script>

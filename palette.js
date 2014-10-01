@@ -1,10 +1,13 @@
+//Check to see if you can add CSS file via Javascript in the angular directive
+//Can you pass a .css file in as a dependency?
+
 (function() {
 	var app=angular.module('Palette', [ ]);
 
 	app.directive('palette', function() {
 		return {
 			restrict: 'E',
-			templateUrl: 'Palette/palette.html',
+			templateUrl: 'directives/Palette/content/directives/palette.html',
 			controller: function($scope) {
 				//variables
 				var rgbString, parts, hexString, i, color, hex, textColor, r, g, b, yiq;
